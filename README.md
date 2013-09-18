@@ -1,6 +1,6 @@
 # Hierapolis::Rails
 
-TODO: Write a gem description
+This gem using to  integrate [hierapolis](https://github.com/kebab-project/hierapolis) theme  on rails project.
 
 ## Installation
 
@@ -18,7 +18,20 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add these lines to application.css
+
+```ruby
+@import 'bootstrap'
+@import "hierapolis"
+```
+
+Add these lines to application.js
+```ruby
+#= require bootstrap
+#= require hierapolis
+```
+
+
 
 ## Contributing
 
