@@ -7,9 +7,9 @@ Gem::Specification.new do |spec|
   spec.name          = "hierapolis-rails"
   spec.version       = Hierapolis::Rails::VERSION
   spec.authors       = ["Muhammet DİLEK"]
-  spec.email         = ["dilekmuhammet@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.email         = ["muhammet.dilek@lab2023.com"]
+  spec.description   = %q{This gem using to  integrate hierapolis theme  on rails project.}
+  spec.summary       = %q{this gem using to  integrate hierapolis theme  on rails project.}
   spec.homepage      = ""
   spec.license       = "MIT"
 
