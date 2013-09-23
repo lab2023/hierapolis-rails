@@ -1,0 +1,10 @@
+- content_for :toolbar do
+  = link_to new_<%= singular_table_name %>_path, class: 'btn btn-default' do
+    %i.icon-plus
+    = t('action_button.new', resource_name: <%= singular_table_name.capitalize %>.model_name.human)
+
+.panel.panel-default.grid
+  =blankable(@<%= plural_table_name %>)
+  .panel-footer
+    .pagination.pagination-sm
+      = will_paginate @<%= plural_table_name %>, renderer: BootstrapPagination::Rails, bootstrap: 3

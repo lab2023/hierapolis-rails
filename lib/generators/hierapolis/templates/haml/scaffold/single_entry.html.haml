@@ -1,0 +1,12 @@
+%tr
+  %td= <%= singular_table_name %>.id
+<% for attribute in attributes -%>
+  %td= <%= singular_table_name %>.<%= attribute.name %>
+<% end -%>
+  %td.action
+    = link_to(<%= singular_table_name %>, class: 'btn btn-success', toogle: 'tooltip', title: t('tooltips.zoom')) do
+      %i.icon-zoom-in
+    = link_to(edit_<%= singular_table_name %>_path(<%= singular_table_name %>) , class: 'btn btn-info') do
+      %i.icon-edit
+    = link_to(<%= singular_table_name %>, class: 'btn btn-danger', method: :delete) do
+      %i.icon-trash
