@@ -16,6 +16,12 @@ Or install it yourself as:
 
     $ gem install hierapolis-rails
 
+Run the generator:
+
+```ruby
+rails g hierapolis:install
+```
+
 ## Usage
 
 Add these lines to application.css

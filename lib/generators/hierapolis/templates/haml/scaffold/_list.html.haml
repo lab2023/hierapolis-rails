@@ -1,0 +1,27 @@
+.panel-heading
+  %i.icon-table.icon-large
+  = t('tt.index', resource_name: <%= singular_table_name.capitalize %>.model_name.human)
+  .panel-tools
+    .btn-group
+      %a.btn{href: '#'}
+        %i.icon-wrench
+        Settings
+      %a.btn{href: '#'}
+        %i.icon-filter
+        Filters
+      %a.btn{href: <%= index_helper %>_path, data: {toggle: 'toolbar-tooltip'}, title: 'Reload'}
+        %i.icon-refresh
+    .badge= @<%= plural_table_name %>.total_entries
+.panel-body.filters
+  = render 'filters'
+%table.table
+  %thead
+    %tr
+      %th #
+<% for attribute in attributes -%>
+      %th= sort_link(@search, :<%= attribute.name %>, t('activerecord.attributes.<%= singular_table_name %>.<%= attribute.name %>'))
+<% end -%>
+      %th.actions
+        Actions
+  %tbody
+    = render @<%= plural_table_name %>

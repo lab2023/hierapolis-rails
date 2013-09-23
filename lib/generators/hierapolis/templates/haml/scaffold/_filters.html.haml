@@ -1,0 +1,12 @@
+<% @search = "" -%>
+<% attributes.each { |attribute| @search += "_#{attribute.name}_or" } -%>
+.table-header.row
+  .col-lg-9
+    TODO: Add filters here
+  .col-lg-3
+    = search_form_for @search, builder: SimpleForm::FormBuilder do |f|
+      .input-group
+        = f.input_field :<%= @search[1..@search.size-4] %>_cont, label: false, input_html: {class: 'form-control'}, placeholder: 'Quick search...'
+        %span.input-group-btn
+          = button_tag( class: 'btn') do
+            %i.icon-search
