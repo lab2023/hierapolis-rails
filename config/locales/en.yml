@@ -1,0 +1,20 @@
+en:
+  hello: "Hello world"
+  cancel: Cancel
+  tooltips:
+    zoom: Zoom
+
+  tt:
+    index: "%{resource_name} list"
+    edit: "Editing %{resource_name}"
+    new: "New %{resource_name}"
+    show: "%{resource_name} detail"
+  action_button:
+    new: "New %{resource_name}"
+    edit: "Edit"
+  tooltips:
+    edit: Edit
+    new: New
+    zoom: Detail
+  navbar:
+    root: Home
