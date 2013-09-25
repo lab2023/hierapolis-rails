@@ -28,4 +28,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'responder', '~> 0.2.4'
   spec.add_runtime_dependency 'haml', '~> 4.0.3'
   spec.add_runtime_dependency 'haml-rails', '~> 0.4'
+  spec.add_runtime_dependency 'show_for', '~> 0.2.6'
 end
