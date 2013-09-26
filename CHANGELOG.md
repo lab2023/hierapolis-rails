@@ -1,5 +1,9 @@
 
 #### [Current]
+ * [df919a6](../../commit/df919a6) - __(Muhammet DİLEK)__ show_for version fixed
+
+#### 0.3.0
+ * [ad69f19](../../commit/ad69f19) - __(Muhammet DİLEK)__ bump version 0.3.0
  * [387d50e](../../commit/387d50e) - __(Muhammet DİLEK)__ bootstrap import
  * [5e1cffd](../../commit/5e1cffd) - __(Muhammet DİLEK)__ show_for dependency added
  * [2bb670f](../../commit/2bb670f) - __(Muhammet DİLEK)__ [#3](../../issues/3) i18n file added
