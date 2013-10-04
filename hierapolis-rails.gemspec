@@ -6,8 +6,8 @@ require 'hierapolis/rails/version'
 Gem::Specification.new do |spec|
   spec.name          = "hierapolis-rails"
   spec.version       = Hierapolis::Rails::VERSION
-  spec.authors       = ["Muhammet DİLEK"]
-  spec.email         = ["muhammet.dilek@lab2023.com"]
+  spec.authors       = ["lab2023"]
+  spec.email         = ["info@lab2023.com"]
   spec.description   = %q{This gem using to  integrate hierapolis theme  on rails project.}
   spec.summary       = %q{this gem using to  integrate hierapolis theme  on rails project.}
   spec.homepage      = ""
