@@ -1,5 +1,10 @@
 
 #### [Current]
+ * [680b141](../../commit/680b141) - __(Muhammet DİLEK)__ [#6](../../issues/6) hq assets file added to generator
+ * [6fa111a](../../commit/6fa111a) - __(Muhammet DİLEK)__ [#5](../../issues/5) Update MIT License
+
+#### 0.3.1
+ * [d3c115f](../../commit/d3c115f) - __(Muhammet DİLEK)__ bump version 0.3.1
  * [df919a6](../../commit/df919a6) - __(Muhammet DİLEK)__ show_for version fixed
 
 #### 0.3.0
