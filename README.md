@@ -33,12 +33,12 @@ rails g hierapolis:install
 Add these lines to application.css
 
 ```ruby
-@import 'bootstrap'
 @import "hierapolis"
 ```
 
 Add these lines to application.js
 ```ruby
+#= require bootstrap
 #= require hierapolis
 ```
 
