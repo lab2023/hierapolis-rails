@@ -39,7 +39,6 @@ Add these lines to application.css
 
 Add these lines to application.js
 ```ruby
-#= require bootstrap
 #= require hierapolis
 ```
 
