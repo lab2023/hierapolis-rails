@@ -19,6 +19,11 @@ module Hierapolis
         directory 'layouts/partials', 'app/views/layouts/partials'
         copy_file 'layouts/login.html.haml', 'app/views/layouts/login.html.haml'
       end
+
+      def create_hq_assets
+        directory 'assets/javascripts/hq', 'app/assets/javascripts/hq'
+        directory 'assets/stylesheets/hq', 'app/assets/stylesheets/hq'
+      end
     end
   end
 end
