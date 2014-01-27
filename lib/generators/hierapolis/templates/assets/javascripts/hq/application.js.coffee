@@ -15,3 +15,9 @@
 #= require turbolinks
 #= require bootstrap
 #= require hierapolis
+
+ready = ->
+  # TODO
+
+$(document).ready(ready)
+$(document).on('page:load', ready)
