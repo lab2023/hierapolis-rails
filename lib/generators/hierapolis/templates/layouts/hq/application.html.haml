@@ -24,7 +24,8 @@
 
     / Stylesheets (Don't change include order)
     = stylesheet_link_tag 'hq/application',
-                          '//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css'
+                          '//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css',
+                          media: 'all', 'data-turbolinks-track' => true
     = yield :head
 
   %body.main
