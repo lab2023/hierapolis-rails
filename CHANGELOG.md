@@ -1,5 +1,14 @@
 
 #### [Current]
+ * [548292a](../../commit/548292a) - __(Muhammet DİLEK)__ [#10](../../issues/10) Turbolinks Incompatibly
+ * [088758f](../../commit/088758f) - __(Muhammet DİLEK)__ [#8](../../issues/8) Add turbolinks track parameter to assets
+ * [3d6b2b8](../../commit/3d6b2b8) - __(Onur Özgür ÖZKAN)__ [#11](../../issues/11) Remove unnecessary code block.
+ * [9504343](../../commit/9504343) - __(Ahmet Sezgin Duran)__ [#9](../../issues/9) Add foot yield to footer partial
+ * [3ef785a](../../commit/3ef785a) - __(Muhammet DİLEK)__ usage update
+ * [bad14d1](../../commit/bad14d1) - __(Muhammet DİLEK)__ remove old usage
+
+#### 0.4.0
+ * [bc3ee49](../../commit/bc3ee49) - __(Muhammet DİLEK)__ bump version 0.4.0
  * [680b141](../../commit/680b141) - __(Muhammet DİLEK)__ [#6](../../issues/6) hq assets file added to generator
  * [6fa111a](../../commit/6fa111a) - __(Muhammet DİLEK)__ [#5](../../issues/5) Update MIT License
 
