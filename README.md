@@ -43,7 +43,6 @@ Add these lines to application.js
 ```
 
 
-
 ## Contributing
 
 1. Fork it
@@ -51,3 +50,13 @@ Add these lines to application.js
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
 5. Create new Pull Request
+
+## Credits
+
+- hierapolis-rails is maintained and funded by [lab2023 - information technologies](http://lab2023.com/)
+- Thank you to all the [contributors!](https://github.com/lab2023/hierapolis-rails/graphs/contributors)
+- The names and logos for lab2023 are trademarks of lab2023, inc.
+
+## License
+
+Copyright 2014 lab2023 – information technologies
