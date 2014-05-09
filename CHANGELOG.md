@@ -1,5 +1,15 @@
 
 #### [Current]
+ * [07c61c1](../../commit/07c61c1) - __(Muhammet DİLEK)__ ransack version updated
+ * [1d8fa46](../../commit/1d8fa46) - __(Ahmet Sezgin Duran)__ LAB-31 #time 1m Add named logo
+ * [3e6017e](../../commit/3e6017e) - __(Ahmet Sezgin Duran)__ LAB-31 #time 1m Fix year information
+ * [bf9ac6e](../../commit/bf9ac6e) - __(Ahmet Sezgin Duran)__ LAB-31 #time 3m Update README.md
+ * [9f53231](../../commit/9f53231) - __(Onur Özgür ÖZKAN)__ Update font-awesome version.
+ * [30ae2fe](../../commit/30ae2fe) - __(Onur Ozgur OZKAN)__ Bump version 1.0.1
+ * [537f042](../../commit/537f042) - __(Onur Ozgur OZKAN)__ Change ransack version 1.0.0 to 1.1.0 for Rails 4.1.x support
+
+#### 1.0.0
+ * [0a6dfff](../../commit/0a6dfff) - __(Muhammet DİLEK)__ bump version 1.0.0
  * [548292a](../../commit/548292a) - __(Muhammet DİLEK)__ [#10](../../issues/10) Turbolinks Incompatibly
  * [088758f](../../commit/088758f) - __(Muhammet DİLEK)__ [#8](../../issues/8) Add turbolinks track parameter to assets
  * [3d6b2b8](../../commit/3d6b2b8) - __(Onur Özgür ÖZKAN)__ [#11](../../issues/11) Remove unnecessary code block.
