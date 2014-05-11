@@ -1,6 +1,6 @@
 #= require_tree
 
-$(document).ready ->
+ready = ->
 
   # Enable Tips & Popovers
   $('[data-toggle=tooltip]').tooltip()
@@ -25,3 +25,7 @@ $(document).ready ->
 
   # Enable knob inputs
   $('.knob').knob()
+
+$(document).ready(ready)
+$(document).on('page:load', ready)
+$(window).on('page:load', ready)
