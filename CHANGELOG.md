@@ -1,8 +1,8 @@
 
 #### [Current]
-
-
-#### 1.0.3
+ * [401ccdb](../../commit/401ccdb) - __(Muhammet DILEK)__ support rails 4.1
+ * [f614aef](../../commit/f614aef) - __(Tayfun Ozis ERIKAN)__ Dependency versions were fixed
+ * [617a070](../../commit/617a070) - __(Tayfun Ozis ERIKAN)__ Version string was updated.
  * [c52d5f1](../../commit/c52d5f1) - __(Tayfun Ozis ERIKAN)__ Bump version 1.0.3
  * [96c0ca1](../../commit/96c0ca1) - __(Tayfun Ozis ERIKAN)__ TB-36 #time 10m Turbolinks events was added to application js files
 
