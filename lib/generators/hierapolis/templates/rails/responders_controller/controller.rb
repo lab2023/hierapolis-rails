@@ -2,7 +2,7 @@
 <% module_namespacing do -%>
 class <%= controller_class_name %>Controller < ApplicationController
   before_action :<%= "set_#{singular_table_name}" %>, only: [:show, :edit, :update, :destroy]
-  add_breadcrumb I18n.t('activerecord.models.<%= table_name %>'), :<%= table_name %>_path
+  add_breadcrumb I18n.t('activerecord.models.<%= singular_table_name %>'), :<%= table_name %>_path
 <% unless options[:singleton] -%>
   def index
     @search = <%= class_name %>.search(params[:q])
@@ -34,7 +34,7 @@ class <%= controller_class_name %>Controller < ApplicationController
   end
 
   def update
-    @<%= orm_instance.update_attributes("#{singular_table_name}_params") %>
+    @<%= orm_instance.update("#{singular_table_name}_params") %>
     respond_with(@<%= file_name %>)
   end
 
