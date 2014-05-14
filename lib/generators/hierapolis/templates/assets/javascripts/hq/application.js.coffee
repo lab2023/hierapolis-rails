@@ -21,3 +21,4 @@ ready = ->
 
 $(document).ready(ready)
 $(document).on('page:load', ready)
+$(window).on('page:load', ready)
