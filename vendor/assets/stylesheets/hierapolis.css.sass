@@ -164,7 +164,8 @@ form
   width: $sidebar-width
   z-index: 1
   text-align: center
-
+  +border-top-left-radius($wrapper-corner-size)
+  
   i#toggle
     margin-top: 20px
     display: inline-block
@@ -251,6 +252,7 @@ form
 
   #breadcrumb
     +border-radius(0)
+    +border-top-right-radius($wrapper-corner-size)
     padding: 15px 20px 15px 20px
     border-bottom: 1px solid #ddd
     .title
