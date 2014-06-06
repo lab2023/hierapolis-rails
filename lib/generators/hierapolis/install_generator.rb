@@ -6,23 +6,22 @@ module Hierapolis
       desc "Copy hierapolis generators"
       source_root File.expand_path('../templates', __FILE__)
 
-      def copy_scaffold_template
-        directory 'haml', 'lib/templates/haml'
-        directory 'rails', 'lib/templates/rails'
-        directory 'generators', 'lib/generators'
-      end
-
       def copy_layouts
-        directory 'layouts/hq', 'app/views/layouts/hq'
-        directory 'layouts/hq/partials', 'app/views/layouts/hq/partials'
+        directory 'layouts/hierapolis', 'app/views/layouts/hierapolis'
+        directory 'layouts/hierapolis/partials', 'app/views/layouts/hierapolis/partials'
+        directory 'views', 'app/views/hierapolis'
+        copy_file 'contollers/hierapolis_controller.rb', 'app/controllers/hierapolis_controller.rb'
+        inject_into_file 'config/routes.rb', :before => 'end' do <<-RUBY
 
-        directory 'layouts/partials', 'app/views/layouts/partials'
-        copy_file 'layouts/login.html.haml', 'app/views/layouts/login.html.haml'
-      end
+  resources :hierapolis, only: [:index, :dashboard, :tables, :forms, :forgot_password] do
+    get :dashboard, on: :collection
+    get :tables, on: :collection
+    get :forms, on: :collection
+    get :forgot_password, on: :collection
+  end
 
-      def create_hq_assets
-        directory 'assets/javascripts/hq', 'app/assets/javascripts/hq'
-        directory 'assets/stylesheets/hq', 'app/assets/stylesheets/hq'
+        RUBY
+        end
       end
     end
   end

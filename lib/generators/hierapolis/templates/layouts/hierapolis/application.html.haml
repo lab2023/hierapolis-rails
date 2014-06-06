@@ -24,17 +24,32 @@
 
     / Stylesheets (Don't change include order)
     = stylesheet_link_tag 'application',
-                          '//netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.min.css',
+                          '//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css',
                           media: 'all', 'data-turbolinks-track' => true
+    = yield :head
 
-  %body.main{class: @page || 'page'}
+  %body.main
 
-    / Content
-    #content
-      = yield
+    / Navbar
+    = render partial: 'layouts/hierapolis/partials/navbar'
+
+    #wrapper
+
+      / Sidebar
+      %section#sidebar
+        = render partial: 'layouts/hierapolis/partials/dock'
+
+      / Tools
+      %section#tools
+        = render partial: 'layouts/hierapolis/partials/breadcrumb'
+        = render partial: 'layouts/hierapolis/partials/toolbar'
+
+      / Content
+      #content
+        = yield
 
     / Footer
-    = render partial: 'layouts/partials/footer'
+    = render partial: 'layouts/hierapolis/partials/footer'
 
     / Google Analytics
-    = render partial: 'layouts/partials/trackers'
+    = render partial: 'layouts/hierapolis/partials/trackers'

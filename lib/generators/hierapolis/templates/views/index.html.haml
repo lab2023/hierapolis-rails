@@ -1,0 +1,24 @@
+.row
+  .col-lg-12
+    .brand.text-center
+      %h1
+        .logo-icon
+          %i.icon-beer
+        Hierapolis
+.row
+  .col-lg-12
+    %form
+      %fieldset.text-center
+        %legend=t(:login_heading)
+        .form-group
+          %input.form-control{placeholder: t(:login_email), type: 'text'}/
+        .form-group
+          %input.form-control{placeholder: t(:login_password), type: 'password'}/
+        .text-center
+          .checkbox
+            %label
+              %input{:type => 'checkbox'}/
+              =t(:login_remember_me)
+          =link_to t(:sign_in), '/hierapolis/dashboard.html', class: 'btn btn-default'
+          %br/
+          =link_to t(:forgot_password), '/hierapolis/forgot_password.html'

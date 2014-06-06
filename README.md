@@ -7,7 +7,10 @@ This gem using to  integrate [hierapolis](https://github.com/kebab-project/hie
 This gem requires
 
 ```ruby
-gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
+gem 'haml'
+gem 'haml-rails'
+gem 'compass-rails', '~> 1.1'
+gem 'bootstrap-sass', '~> 3.1'
 ```
 
 Add this line to your application's Gemfile:
@@ -30,7 +33,7 @@ rails g hierapolis:install
 
 ## Usage
 
-Add these lines to application.css
+Add these lines to application.css.sass
 
 ```ruby
 @import "hierapolis"

@@ -20,36 +20,19 @@
     %link(rel="apple-touch-icon-precomposed" sizes="72x72" href="/assets/apple-touch-icon-72x72-precomposed.png")
     %link(rel="apple-touch-icon-precomposed" sizes="114x114" href="/assets/apple-touch-icon-114x114-precomposed.png")
 
-    = csrf_meta_tags
-
     / Stylesheets (Don't change include order)
-    = stylesheet_link_tag 'hq/application',
+    = stylesheet_link_tag 'application',
                           '//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css',
                           media: 'all', 'data-turbolinks-track' => true
     = yield :head
 
-  %body.main
+  %body.login
 
-    / Navbar
-    = render partial: 'layouts/hq/partials/navbar'
-
-    #wrapper
-
-      / Sidebar
-      %section#sidebar
-        = render partial: 'layouts/hq/partials/dock'
-
-      / Tools
-      %section#tools
-        = render partial: 'layouts/hq/partials/breadcrumb'
-        = render partial: 'layouts/hq/partials/toolbar'
-
-      / Content
-      #content
-        = yield
+    .wrapper
+      = yield
 
     / Footer
-    = render partial: 'layouts/hq/partials/footer'
+    = render partial: 'layouts/hierapols/partials/footer'
 
     / Google Analytics
-    = render partial: 'layouts/partials/trackers'
+    = render partial: 'layouts/hierapolis/partials/trackers'

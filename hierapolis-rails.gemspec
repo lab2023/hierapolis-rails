@@ -20,14 +20,8 @@ Gem::Specification.new do |spec|
 
   spec.add_development_dependency 'bundler', '~> 1.3'
   spec.add_development_dependency 'rake', '~> 10.3', '>= 10.3.1'
-  spec.add_runtime_dependency 'show_for', '~> 0.3', '>= 0.3.0'
-  spec.add_runtime_dependency 'will_paginate', '~> 3.0', '>= 3.0.3'
-  spec.add_runtime_dependency 'will_paginate-bootstrap', '~> 0.2', '>= 0.2.3'
-  spec.add_runtime_dependency 'ransack', '~> 1.2', '>= 1.2.3'
-  spec.add_runtime_dependency 'breadcrumbs_on_rails', '~> 2.3', '>= 2.3.0'
-  spec.add_runtime_dependency 'blankable', '~> 0.2', '>= 0.2.0'
-  spec.add_runtime_dependency 'responder', '~> 0.2', '>= 0.2.4'
   spec.add_runtime_dependency 'haml', '~> 4.0', '>= 4.0.5'
   spec.add_runtime_dependency 'haml-rails', '~> 0.4'
-
+  spec.add_runtime_dependency 'compass-rails', '~> 1.1'
+  spec.add_runtime_dependency 'bootstrap-sass', '~> 3.1'
 end
