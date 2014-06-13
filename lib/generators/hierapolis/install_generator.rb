@@ -10,8 +10,9 @@ module Hierapolis
         directory 'layouts/hierapolis', 'app/views/layouts/hierapolis'
         directory 'layouts/hierapolis/partials', 'app/views/layouts/hierapolis/partials'
         directory 'views', 'app/views/hierapolis'
-        copy_file 'contollers/hierapolis_controller.rb', 'app/controllers/hierapolis_controller.rb'
-        inject_into_file 'config/routes.rb', :before => 'end' do <<-RUBY
+        copy_file 'controllers/hierapolis_controller.rb', 'app/controllers/hierapolis_controller.rb'
+
+        inject_into_file 'config/routes.rb', :after => 'Rails.application.routes.draw do' do <<-RUBY
 
   resources :hierapolis, only: [:index, :dashboard, :tables, :forms, :forgot_password] do
     get :dashboard, on: :collection
