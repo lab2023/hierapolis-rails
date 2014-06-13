@@ -1,4 +1,11 @@
 tr:
+  login_heading: "Giriş yap"
+  login_remember_me: "Beni hatırla"
+  login_email: "Eposta adresi"
+  login_email_hint: "Eposta adresinizi giriniz"
+  login_password: "Şifre"
+  forgot_password: "Şifrenizi mi unuttunuz ?"
+  forgot_password_heading: "Şifrenizi sıfırlayın"
   hello: "Merhaba Dünya"
   cancel: İptal
   tooltips:
