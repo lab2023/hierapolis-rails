@@ -1,6 +1,6 @@
 # Hierapolis::Rails
 
-This gem using to  integrate [hierapolis](https://github.com/kebab-project/hierapolis) theme  on rails project.
+This gem using to  integrate [hierapolis](../../../hierapolis) theme  on rails project.
 
 ## Installation
 
@@ -56,7 +56,7 @@ Add these lines to application.js
 ![lab2023](http://lab2023.com/assets/images/named-logo.png)
 
 - hierapolis-rails is maintained and funded by [lab2023 - information technologies](http://lab2023.com/)
-- Thank you to all the [contributors!](https://github.com/lab2023/hierapolis-rails/graphs/contributors)
+- Thank you to all the [contributors!](../../graphs/contributors)
 - The names and logos for lab2023 are trademarks of lab2023, inc.
 
 ## License
