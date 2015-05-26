@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
   spec.add_runtime_dependency 'haml', '~> 4.0', '>= 4.0.5'
   spec.add_runtime_dependency 'haml-rails', '~> 0.4'
   spec.add_runtime_dependency 'compass-rails', '~> 2.0.4'
-  spec.add_runtime_dependency 'bootstrap-sass', '~> 3.1'
+  spec.add_runtime_dependency 'bootstrap-sass', '~> 3.3.4'
 end
