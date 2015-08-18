@@ -3,7 +3,8 @@ en:
   cancel: Cancel
   tooltips:
     zoom: Zoom
-
+  messages:
+    sorry: Sorry
   tt:
     index: "%{resource_name} list"
     edit: "Editing %{resource_name}"

@@ -1,5 +1,6 @@
 tr:
-  hello: "Merhaba Dünya"
+  messages:
+    sorry: Üzgünüz
   cancel: İptal
   tooltips:
     zoom: Detay
