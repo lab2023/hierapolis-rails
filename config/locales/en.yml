@@ -19,3 +19,9 @@ en:
     zoom: Detail
   navbar:
     root: Home
+    edit_profile: Edit Profile
+    settings: Settings
+    signout: Sign Out
+    signin: Sign In
+  dock:
+    dashboard: Dashboard

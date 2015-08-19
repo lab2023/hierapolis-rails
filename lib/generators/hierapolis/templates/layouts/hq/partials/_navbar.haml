@@ -1,5 +1,5 @@
 #navbar.navbar.navbar-default
-  %a.navbar-brand{:href => '#'}
+  %a.navbar-brand{:href => hq_root_path}
     %i.icon-beer
     Hierapolis
   %ul.nav.navbar-nav.pull-right
@@ -21,16 +21,17 @@
     %li
       %a{href: '#'}
         %i.icon-cog
-        Settings
+        = t('navbar.settings')
     %li.dropdown.user
       %a.dropdown-toggle{'data-toggle' => 'dropdown', :href => '#'}
         %i.icon-user
-        %strong John DOE
+        %strong
+          = current_admin.email
         =image_tag 'http://lorempixel.com/output/fashion-q-c-20-20-4.jpg', width: '20px', height: '20px', class: 'img-rounded'
         %b.caret
       %ul.dropdown-menu
         %li
-          %a{:href => '#'} Edit Profile
+          =link_to t('navbar.edit_profile'), edit_hq_admin_profile_path
         %li.divider
         %li
-          =link_to 'Sign out', 'index.html'
+          =link_to t('navbar.signout'), destroy_admin_session_path, method: :delete
