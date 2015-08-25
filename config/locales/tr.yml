@@ -1,5 +1,6 @@
 tr:
-  hello: "Merhaba Dünya"
+  messages:
+    sorry: Üzgünüz
   cancel: İptal
   tooltips:
     zoom: Detay
@@ -19,3 +20,9 @@ tr:
     zoom: Detay
   navbar:
     root: Anasayfa
+    edit_profile: Profil Düzenle
+    settings: Ayarlar
+    signout: Çıkış
+    signin: Giriş Yap
+  dock:
+    dashboard: Kontrol Paneli
