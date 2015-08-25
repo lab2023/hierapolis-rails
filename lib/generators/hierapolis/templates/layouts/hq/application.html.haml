@@ -26,6 +26,10 @@
     = stylesheet_link_tag 'hq/application',
                           '//netdna.bootstrapcdn.com/font-awesome/3.2.0/css/font-awesome.min.css',
                           media: 'all', 'data-turbolinks-track' => true
+
+    / Javascripts
+    = javascript_include_tag '//cdnjs.cloudflare.com/ajax/libs/modernizr/2.6.2/modernizr.min.js',
+                              'hq/application', 'data-turbolinks-track' => true
     = yield :head
 
   %body.main
