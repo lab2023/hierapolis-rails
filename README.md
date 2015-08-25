@@ -7,7 +7,7 @@ This gem using to  integrate [hierapolis](../../../hierapolis) theme  on rai
 This gem requires
 
 ```ruby
-gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
+gem 'bootstrap-sass'
 ```
 
 Add this line to your application's Gemfile:
@@ -61,4 +61,4 @@ Add these lines to application.js
 
 ## License
 
-Copyright 2014 lab2023 – information technologies
+Copyright © 2013-2015 [lab2023 - information technologies](http://lab2023.com)
