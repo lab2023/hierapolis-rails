@@ -1,5 +1,12 @@
 
 #### [Current]
+
+
+#### v1.1.2
+ * [267e7f1](../../commit/267e7f1) - __(Tayfun Öziş ERİKAN)__ Runtime dependency problems solved
+
+#### v1.1.1
+ * [4ccec2d](../../commit/4ccec2d) - __(Tayfun Öziş ERİKAN)__ Bump version v1.1.1
  * [84b0b19](../../commit/84b0b19) - __(Tayfun Öziş ERİKAN)__ Improvements were done
  * [574ee01](../../commit/574ee01) - __(Tayfun Öziş ERİKAN)__ LICENSE and README files were updated
  * [194a80d](../../commit/194a80d) - __(Tayfun Öziş ERİKAN)__ Turbolinks JS include order problem was solved
