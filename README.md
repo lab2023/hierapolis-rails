@@ -7,6 +7,9 @@ This gem using to  integrate [hierapolis](../../../hierapolis) theme  on rai
 This gem requires
 
 ```ruby
+gem 'haml'
+gem 'haml-rails'
+gem 'compass-rails'
 gem 'bootstrap-sass'
 ```
 
