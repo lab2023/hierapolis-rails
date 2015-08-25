@@ -3,7 +3,8 @@ en:
   cancel: Cancel
   tooltips:
     zoom: Zoom
-
+  messages:
+    sorry: Sorry
   tt:
     index: "%{resource_name} list"
     edit: "Editing %{resource_name}"
@@ -18,3 +19,9 @@ en:
     zoom: Detail
   navbar:
     root: Home
+    edit_profile: Edit Profile
+    settings: Settings
+    signout: Sign Out
+    signin: Sign In
+  dock:
+    dashboard: Dashboard

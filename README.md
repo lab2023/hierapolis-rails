@@ -1,13 +1,16 @@
 # Hierapolis::Rails
 
-This gem using to  integrate [hierapolis](https://github.com/kebab-project/hierapolis) theme  on rails project.
+This gem using to  integrate [hierapolis](../../../hierapolis) theme  on rails project.
 
 ## Installation
 
 This gem requires
 
 ```ruby
-gem 'bootstrap-sass', :git => 'git://github.com/thomas-mcdonald/bootstrap-sass.git', :branch => '3'
+gem 'haml'
+gem 'haml-rails'
+gem 'compass-rails'
+gem 'bootstrap-sass'
 ```
 
 Add this line to your application's Gemfile:
@@ -56,9 +59,9 @@ Add these lines to application.js
 ![lab2023](http://lab2023.com/assets/images/named-logo.png)
 
 - hierapolis-rails is maintained and funded by [lab2023 - information technologies](http://lab2023.com/)
-- Thank you to all the [contributors!](https://github.com/lab2023/hierapolis-rails/graphs/contributors)
+- Thank you to all the [contributors!](../../graphs/contributors)
 - The names and logos for lab2023 are trademarks of lab2023, inc.
 
 ## License
 
-Copyright 2014 lab2023 – information technologies
+Copyright © 2013-2015 [lab2023 - information technologies](http://lab2023.com)
